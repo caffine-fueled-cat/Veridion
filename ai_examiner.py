@@ -119,7 +119,7 @@ def write_summary(student_name, course_title, score, total, missed):
                   f"Student {student_name} re-took the {course_title} exam and scored {score}/{total}. "
                   f"Questions they missed: {missed if missed else 'none'}. "
                   "Say what they demonstrated and any weak area. Do not use quotation marks.")
-        text = _call_llm(prompt, 2000).strip()
+        text = _call_llm(prompt, 8000).strip()
         if text:
             return text
     except Exception:
