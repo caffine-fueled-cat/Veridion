@@ -1,4 +1,4 @@
-# Living Certificates
+﻿# Veridion
 
 An e-learning platform featuring tamper-evident, hash-chained digital certificates.
 Certificates are time-bound, expiring periodically and verifiable instantly by their unique ID.

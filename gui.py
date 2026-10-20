@@ -1,4 +1,4 @@
-"""Tkinter GUI. Talks only to logic (or stubs), certificate and ai_examiner."""
+﻿"""Tkinter GUI. Talks only to logic (or stubs), certificate and ai_examiner."""
 import tkinter as tk
 from tkinter import ttk, messagebox
 
@@ -29,7 +29,7 @@ def make_tree(parent, cols, height=12):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Living Certificates - E-Learning Platform")
+        self.title("Veridion - E-Learning Platform")
         self.geometry("860x560")
         style = ttk.Style(self)
         if "clam" in style.theme_names():
